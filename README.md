@@ -26,3 +26,10 @@ Recibe un array de str con los nombres de los archivos/clases a cargar, y la var
 La función hará la búsqueda de las clases y las importará, añadiéndolas a la variable *globals()* para que posteriormente puedan utilizarse dichas clases de una manera más cómoda.
 
 Esta idea fue concebida para emular un poco la utilidad del autoloader de PHP.
+
+## 2- Estructura del repositorio
+
+    [ROOT]
+    ├── autoloader.py
+    ├── index.py
+    └── Person.py
