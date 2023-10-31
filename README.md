@@ -1,5 +1,7 @@
 # README
 ---
+**Autor:** *CoderLotl - 30/10/2023*
+
 ## Intro
 
 Sencilla función que tiene por finalidad la importación automática de clases en una sola línea, evitando múltiples líneas y pathing a través de diversas carpetas.
