@@ -4,7 +4,7 @@
 
 ## Intro
 
-Sencilla función que tiene por finalidad la importación automática de clases en una sola línea, evitando múltiples líneas y pathing a través de diversas carpetas.
+Sencilla función que tiene por finalidad la importación automática de clases en una sola línea, evitando múltiples líneas y pathing a través de diversas carpetas o fuentes de recursos.
 Esta función tiene 2 requerimientos:
 1. Que cada archivo tenga 1 clase, y solo 1 clase.
 2. Que tanto el nombre del archivo como de la clase sean exactamente el mismo.
