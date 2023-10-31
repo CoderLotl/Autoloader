@@ -33,3 +33,13 @@ Esta idea fue concebida para emular un poco la utilidad del autoloader de PHP.
     ├── autoloader.py
     ├── index.py
     └── Person.py
+
+## 3- Ejemplo de uso
+
+    from autoloader import autoloader
+
+    autoloader(['Person'], globals()) # la clase Person es cargada dinámicamente
+
+    a = Person(['John', 30]) # la clase Person es instanciada. No se requirió escribir el import.
+
+    print(a.name)
